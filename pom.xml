@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jorge</groupId>
-	<artifactId>mssprng1</artifactId>
+	<artifactId>microspring1-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>mssprng1</name>
+	<name>microspring1-boot</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
