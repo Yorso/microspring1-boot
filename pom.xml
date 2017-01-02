@@ -26,10 +26,10 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId><!-- Adds spring-web, spring-mvc and embedded Tomcat jars -->
-			<artifactId>spring-boot-starter-web</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId><!-- Adds spring-web, spring-mvc and embedded Tomcat jars -->
 		</dependency>
-		<!-- dependency> It's not necessary because of org.springframework.boot dependency adds embedded Tomcat jars
+		<!-- dependency> It's not necessary because of spring-boot-starter-web dependency adds embedded Tomcat jars
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
