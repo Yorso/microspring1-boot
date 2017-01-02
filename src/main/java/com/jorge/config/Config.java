@@ -7,9 +7,9 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 /**
  * De jar a war:
- * 	Cambiarlo en el pom.xml, en la etiqueta <packaging>
- * 	Extender de SpringBootServletInitializer en esta clase
- *  Desplegarlo en un servidor web que no sea el Tomcat embebido por la dependencia spring-boot-starter-web
+ * 	1º Cambiarlo en el pom.xml, en la etiqueta <packaging>
+ * 	2º Extender de SpringBootServletInitializer en esta clase
+ *  3º Desplegarlo en un servidor web que no sea el Tomcat embebido por la dependencia spring-boot-starter-web
  *
  */
 @SpringBootApplication
