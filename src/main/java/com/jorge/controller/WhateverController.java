@@ -18,14 +18,14 @@ public class WhateverController {
 	
 	@RequestMapping("/hello")
 	public String helloThere1(){
-		return "hello"; //Va a la paǵina hello.html, ya no hay que poner @ResponseBody
+		return "hello"; //Pinta la paǵina hello.html, ya no hay que poner @ResponseBody
 		
 	}
 	
 	@RequestMapping("/hello/{name}")
 	public String helloThere2(Map model, @PathVariable String name){
 		model.put("name", name);
-		return "hello"; //Va a la paǵina hello.html, ya no hay que poner @ResponseBody
+		return "hello"; //Pinta la paǵina hello.html, ya no hay que poner @ResponseBody
 		
 	}
 	
