@@ -13,19 +13,19 @@ public class WhateverController {
 	@RequestMapping("/hi")
 	//@ResponseBody Se puede poner en la declaración del método
 	public @ResponseBody String hiThere(){
-		return "Hello world!";
+		return "Hello world!"; //Resultado creado al vuelo gracias a @ResponseBody, no existe página html o jsp
 	}
 	
 	@RequestMapping("/hello")
 	public String helloThere1(){
-		return "hello";
+		return "hello"; //Va a la paǵina hello.html, ya no hay que poner @ResponseBody
 		
 	}
 	
 	@RequestMapping("/hello/{name}")
 	public String helloThere2(Map model, @PathVariable String name){
 		model.put("name", name);
-		return "hello";
+		return "hello"; //Va a la paǵina hello.html, ya no hay que poner @ResponseBody
 		
 	}
 	
