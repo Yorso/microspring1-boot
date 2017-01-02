@@ -4,10 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.Bean;
+import org.thymeleaf.spring4.view.ThymeleafViewResolver;
 
 /**
  * De jar a war:
- * 	1º Cambiarlo en el pom.xml, en la etiqueta <packaging>
+ * 	1º Cambiarlo en el pom.xml, en la etiqueta "<packaging>"
  * 	2º Extender de SpringBootServletInitializer en esta clase
  *  3º Desplegarlo en un servidor web que no sea el Tomcat embebido por la dependencia spring-boot-starter-web
  *  	http://localhost:8080/<app-name>/
