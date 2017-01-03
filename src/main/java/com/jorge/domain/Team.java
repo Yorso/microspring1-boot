@@ -2,6 +2,10 @@ package com.jorge.domain;
 
 import java.util.Set;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement //Mostrará el resultado (domain object del método hiTeam() del controlador BaseBallController.java) 
+                //en formato XML. Si ésto muestra resultado como JSON
 public class Team {
 
 	String name;

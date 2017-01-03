@@ -14,6 +14,7 @@ import com.jorge.domain.Team;
 //@Controller
 @RestController //Considera cualquier respuesta de los métodos de esta clase como @ResponseBody. Hay que eliminar las 
 				//anotaciones @ResponseBody de todos los métodos y @Controller de la clase
+				//Es decir, o usamos @Controller + @ResponseBody, o sólo @RestController
 public class BaseBallController {
 
 	private Team team;
