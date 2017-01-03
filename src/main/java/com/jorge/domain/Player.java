@@ -1,7 +1,16 @@
 package com.jorge.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity //JPA annotation
 public class Player {
 
+	@Id //JPA annotation
+	@GeneratedValue //JPA annotation
+	Long id;
+	
 	String name;
 	String position;
 	
