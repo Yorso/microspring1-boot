@@ -42,10 +42,11 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<dependency>
+		<!-- Si vamos a usar JSP y no HTML debemos eliminar Thymeleaf del pom.xml, si irá a buscar JSP's a templates y no a WEB-INF -->
+		<!-- dependency> 
 			<groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
-		</dependency>
+		</dependency -->
 	</dependencies>
 
 	<build>
