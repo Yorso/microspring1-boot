@@ -1,17 +1,11 @@
 package com.jorge.controller;
 
-import java.util.HashSet;
-import java.util.Set;
-
-import javax.annotation.PostConstruct;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.jorge.dao.TeamDao;
-import com.jorge.domain.Player;
+import com.jorge.dao.TeamDaoJPA;
 import com.jorge.domain.Team;
 
 //@Controller está comentado porque tenemos definido @RestController
@@ -24,7 +18,7 @@ public class BaseBallController {
 	
 	//Para el ejemplo de Spring Data, JPA, persistencia, etc
 	@Autowired
-	TeamDao teamDao;
+	TeamDaoJPA teamDao;
 	
 	//Para el ejemplo de Spring Data, JPA, persistencia, etc movemos este método a MainApplication.java
 	/*

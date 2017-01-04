@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
-import com.jorge.dao.TeamDao;
+import com.jorge.dao.TeamDaoJPA;
 import com.jorge.domain.Player;
 import com.jorge.domain.Team;
 
@@ -30,7 +30,7 @@ public class MainApplication extends SpringBootServletInitializer { //SpringBoot
 
 	//Ejemplo de Spring Data, JPA, persistencia, etc
 	@Autowired
-	TeamDao teamDao;
+	TeamDaoJPA teamDao;
 	
 	/**
 	 * Used when run as a JAR

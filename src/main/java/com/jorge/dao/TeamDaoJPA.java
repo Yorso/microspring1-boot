@@ -7,7 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 import com.jorge.domain.Team;
 
 
-public interface TeamDao extends CrudRepository<Team, Long> { //CrudRepository es un repositorio proporcionado por la dependencia spring-boot-starter-data-jpa (Spring Data JPA library)
+public interface TeamDaoJPA extends CrudRepository<Team, Long> { //CrudRepository es un repositorio proporcionado por la dependencia spring-boot-starter-data-jpa (Spring Data JPA library)
 
 	List<Team> findAll(); //Spring Data is going to know how to implement that method for me
 	
