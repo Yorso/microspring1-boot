@@ -26,7 +26,7 @@ import com.jorge.domain.Team;
 //@SpringBootApplication //Si @SpringBootApplication estuviera en com.jorge no habría que especificar scanBasePackages, escanearía todos los paquetes que hay desde su nivel hacia abajo, incluyendo com.jorge.controller que es donde está el mapeo de "/hi"
 						 //Si no especificamos scanBasePackages o esta clase no está en com.jorge, nunca escanearía el controlador WhateverController.java ni mapearía "/hi"
 @SpringBootApplication //(scanBasePackages={"com.jorge.controller"})
-public class MainApplication extends SpringBootServletInitializer { //SpringBootServletInitializer: en el curso se dice que es necesario para convertir de jar a war, a parte de cambiarlo en el pom.xml
+public class MainApplication extends SpringBootServletInitializer { //SpringBootServletInitializer: en el curso se dice que es necesario para convertir de jar a war, a parte de cambiarlo en el pom.xml en la etiqueta <packaging></packaging>
 
 	//Ejemplo de Spring Data, JPA, persistencia, etc
 	@Autowired
