@@ -52,6 +52,7 @@
 		
 		<!-- JPA Spring Boot dependency:
 				  Adds:
+				  	JPA annotations
 				  	Spring JDBC/ Transaction Management
 				  	Spring ORM
 				  	Hibernate/Entity Manager
