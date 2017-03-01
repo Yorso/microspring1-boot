@@ -1,4 +1,4 @@
-![Sprint Cloud](https://www.google.es/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjwp--6wLTSAhUH1RQKHfQRAFgQjRwIBw&url=http%3A%2F%2Fwww.gregoriopalama.com%2Fmicroservices-with-spring-cloud-and-netflix-oss-1%2F&bvm=bv.148441817,d.d24&psig=AFQjCNG1Z67BfrrqLX-OTzUhZ9E63xq5bw&ust=1488430106414833)
+![Sprint Cloud](http://www.gregoriopalama.com/wp-content/uploads/2016/06/cloud.png)
 
 - [x] **[Microservices with Spring Cloud (Udemy)](https://www.udemy.com/microservices-with-spring-cloud/learn/v4/overview)** :link:
 
