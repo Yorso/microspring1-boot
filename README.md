@@ -1,4 +1,4 @@
-->![Sprint Cloud](http://www.gregoriopalama.com/wp-content/uploads/2016/06/cloud.png)<-
+![Sprint Cloud](http://www.gregoriopalama.com/wp-content/uploads/2016/06/cloud.png?style=centerme)
 
 - [x] **[Microservices with Spring Cloud (Udemy)](https://www.udemy.com/microservices-with-spring-cloud/learn/v4/overview)** :link:
 
