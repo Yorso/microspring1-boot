@@ -1,6 +1,6 @@
--Course: [Microservices with Spring Cloud (Udemy)](https://www.udemy.com/microservices-with-spring-cloud/learn/v4/overview)
+**[Microservices with Spring Cloud (Udemy)](https://www.udemy.com/microservices-with-spring-cloud/learn/v4/overview)
 
--Instructor: Ken Krueger, Technical Instructor in Software Development topics
+**Instructor: Ken Krueger, Technical Instructor in Software Development topics
 
 ##Lab 1 - Spring Boot
 
