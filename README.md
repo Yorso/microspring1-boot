@@ -1,4 +1,4 @@
-- [x] **[Microservices with Spring Cloud (Udemy)](https://www.udemy.com/microservices-with-spring-cloud/learn/v4/overview)**
+- [x] **[Microservices with Spring Cloud (Udemy)](https://www.udemy.com/microservices-with-spring-cloud/learn/v4/overview)** :link:
 
 - [x] **Instructor: Ken Krueger, Technical Instructor in Software Development topics**
 
